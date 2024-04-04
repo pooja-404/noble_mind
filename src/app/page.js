@@ -28,7 +28,7 @@ export default function Home() {
     <>
       {/* <Preloder /> */}
       <Head>
-        <title> Noble Mind"</title>
+        <title> Noble Mind</title>
         <meta property="og:image" content="https://i.ibb.co/6nGGxH4/confranceimg.png" />
         <meta property="twitter:image" content="https://i.ibb.co/6nGGxH4/confranceimg.png" />
       </Head>
