@@ -21,7 +21,7 @@ export default function Navsec() {
                         alt="logo" width={221.86}
                         height={38.43} className="object-contain" />
                     <ul
-                        className={`gap-5 flex mobileView items-center ${show ? "right-0" : "right-[-100%]"}`}
+                        className={`gap-5 flex mobileView  items-center ${show ? "right-0" : "right-[-100%]"}`}
                     >
                         <li>
                             <a
