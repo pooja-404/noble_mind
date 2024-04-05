@@ -54,7 +54,7 @@ export default function Home() {
         <div>{<Preloder />}</div>
       ) : (
         <div className="App ">
-          <div className="bg-bg_image sm:min-h-screen object-contain min-h-[500px] flex flex-col lg:bg-BgSize bg-cover bg-center bg-repeat  ">
+          <div className="bg-bg_image sm:min-h-screen object-contain min-h-[90vh] flex flex-col lg:bg-BgS ize bg-cover lg:bg-center bg-left bg-repeat  ">
             <Navsec />
             <Headersec />
           </div>
