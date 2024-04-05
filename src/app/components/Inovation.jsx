@@ -5,68 +5,61 @@ import Slider from "react-slick";
 import Image from "next/image";
 
 export default function Inovation() {
-    var settings = {
+    const settings = {
+        dots: true,
         infinite: true,
         speed: 2000,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
-        arrows: false,
-        variableWidth: true,
-        autoplaySpeed: 0,
-        cssEase: "linear",
-        dots: true,
-        // autoplay: true,
+        autoplay: true,
+        speedAutoplay: 0,
+        centerMode: true,
+        centerPadding: '-10px',
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1400,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
-                    infinite: true,
-                    dots: false,
-                    CenterMode: true,
-                    arrow: false,
-                    variableWidth: true,
-
                 }
             },
             {
-                breakpoint: 838,
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2.5,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
-                    infinite: true,
-                    dots: false,
-                    CenterMode: true,
-                    arrow: false,
-                    variableWidth: true,
+                    centerMode: false,
                 }
             },
             {
-                breakpoint: 767,
+                breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1.5,
                     slidesToScroll: 1,
-                    CenterMode: true,
-                    dots: false,
-                    arrow: false,
-                    variableWidth: true,
-
+                    centerMode: false,
                 }
             },
             {
-                breakpoint: 576,
+                breakpoint: 450,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    CenterMode: true,
-                    dots: false,
-                    arrow: false,
-                    variableWidth: true,
+                    centerMode: false,
                 }
-            }
-        ]
+            },
+        ],
+        // afterChange: (currentSlideIndex) => {
+        //     setCenterSlideIndex((currentSlideIndex + 1) % 3);
+        // }
     };
+
     const cards = [
         {
             text: 1,
@@ -86,8 +79,8 @@ export default function Inovation() {
         },
 
     ]
-    const card = cards.map((cards, i) => (<div key={i} className={`lg:w-1/3 md:w-2/4  w-full px-2 flex justify-center group duration-500 py-16 ${cards.botm}`}>
-        <div className="  duration-500 object-cover w-[364px] h-[208px] p-4 hover:border-b-4 hover:border-[#A854E9]    rounded-[12px] border-[1px] border-solid border-[#A854E933] " data-aos={`${cards.animation}`} data-aos-duration="1000" data-aos-offset="500"
+    const card = cards.map((cards, i) => (<div key={i} className={`lg:w-1/3 md:w-2/4   w-full px-2 flex justify-center group duration-500 py-16 ${cards.botm}`}>
+        <div className=" object-cover w-[364px] h-[208px]  p-4 hover:border-b-4 hover:border-[#A854E9]    rounded-[12px] border-[1px] border-solid border-[#A854E933] " data-aos={`${cards.animation}`} data-aos-duration="1000" data-aos-offset="500"
             data-aos-easing="ease-in-sine" style={{ backgroundImage: `url(${cards.bg})` }}>
             <div className='w-[50px] h-[50px] opacity-3 rounded-full border-[#A854E93D] border-solid border-[10px]  flex justify-center items-center'>
                 <p className='font-Outfit font-bold text-[24px] leading-[50px] text-gradient'>{cards.text}</p>
@@ -97,9 +90,9 @@ export default function Inovation() {
         </div>
     </div>));
     return (
-        <div className="relative z-1">
-            <div className="max-w-[1140px] mx-auto px-3 ">
-                <div className=" flex gap-2 items-center justify-center">
+        <div className="relative z-1 " id="choose">
+            <div className="max-w-[1140px] container  mx-auto px-3">
+                <div className=" flex gap-2 items-center justify-center" data-aos="zoom-in">
                     <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13.9187 6.87573L11.1603 14.2314L3.80469 16.9897L11.1603 19.7481L13.9187 27.1037L16.677 19.7481L24.0327 16.9897L16.677 14.2314L13.9187 6.87573Z" fill="#00EAEC" />
                         <path d="M13.9187 6.87573L11.1603 14.2314L3.80469 16.9897L11.1603 19.7481L13.9187 27.1037L16.677 19.7481L24.0327 16.9897L16.677 14.2314L13.9187 6.87573Z" fill="url(#paint0_linear_101_304)" />
@@ -119,12 +112,12 @@ export default function Inovation() {
 
                     <p className="text-[#131200] font-Exo text-base font-normal leading-[24px]">Why Choose Us</p>
                 </div>
-                <h2 className="text-[#000000]  font-Outfit  lg:text-[48px]  sm:text-5xl text-3xl font-light md:leading-[57.6px] pt-3 text-center">Driving Innovation & <span className="font-Montserrat font-semibold lg:block ">Transforming Industries </span></h2>
+                <h2 className="text-[#000000]  font-Outfit  lg:text-[48px]  sm:text-5xl text-3xl font-light md:leading-[57.6px] pt-3 text-center" data-aos="zoom-in">Driving Innovation & <span className="font-Montserrat font-semibold lg:block ">Transforming Industries </span></h2>
                 <Slider {...settings}>{card}</Slider>
                 <Image
                     src="/assets/images/confranceimg.png"
                     alt="logo" width={1140}
-                    height={527} className="object-contain rounded-[24px]" />
+                    height={527} className="object-cover  rounded-[24px] md:h-[527px] h-[300px]" data-aos="zoom-in" />
             </div>
             <Image
                 src="/assets/images/sliderellipse.png"

@@ -14,64 +14,64 @@ export default function Navsec() {
     }
     return (
         <>
-            <nav className=" max-w-[1140px] mx-auto px-3 ">
+            <nav className="container max-w-[1140px] mx-auto px-3 ">
                 <div className='flex py-8   justify-between'>
                     <Image
                         src="/assets/images/logo.png"
                         alt="logo" width={221.86}
-                        height={38.43} className="object-contain" />
+                        height={38.43} className="object-contain cursor-pointer" />
                     <ul
                         className={`gap-5 flex mobileView  items-center ${show ? "right-0" : "right-[-100%]"}`}
                     >
                         <li>
                             <a
                                 href="#home" onClick={hide}
-                                className=" text-[#131200] opacity-[70%] font-Exo text-base font-normal leading-[24px] hover:after:w-[100%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#02CDCF] after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
+                                className=" text-[#5A594D] opacity-[70%] font-Exo text-base font-normal leading-[24px] hover:text-[#131200] hover:opacity-75 duration-300"
                             >
                                 Home
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#Marketplace"
+                                href="#about"
                                 onClick={hide}
-                                className=" text-[#131200] opacity-[70%] font-Exo text-base font-normal leading-[24px] hover:after:w-[100%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#02CDCF] after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
+                                className=" text-[#5A594D] opacity-[70%] font-Exo text-base font-normal leading-[24px] hover:text-[#131200] duration-300 hover:opacity-75"
                             >
                                 About Us
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#about"
+                                href="#service"
                                 onClick={hide}
-                                className=" text-[#131200] opacity-[70%] font-Exo text-base font-normal leading-[24px] hover:after:w-[100%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#02CDCF] after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
+                                className=" text-[#5A594D] opacity-[70%] font-Exo text-base font-normal leading-[24px] hover:text-[#131200] duration-300 hover:opacity-75"
                             >
                                 Services
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#nexchat"
+                                href="#choose"
                                 onClick={hide}
-                                className=" text-[#131200] opacity-[70%] font-Exo text-base font-normal leading-[24px] hover:after:w-[100%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#02CDCF] after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
+                                className=" text-[#5A594D] opacity-[70%] font-Exo text-base font-normal leading-[24px] hover:text-[#131200] duration-300 hover:opacity-75"
                             >
                                 Why Choose Us
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#nexchat"
+                                href="#blogs"
                                 onClick={hide}
-                                className=" text-[#131200] opacity-[70%] font-Exo text-base font-normal leading-[24px] hover:after:w-[100%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#02CDCF] after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
+                                className=" text-[#5A594D] opacity-[70%] font-Exo text-base font-normal leading-[24px] hover:text-[#131200] duration-300 hover:opacity-75"
                             >
                                 Blogs
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#nexchat"
+                                href="#faq"
                                 onClick={hide}
-                                className=" text-[#131200] opacity-[70%] font-Exo text-base font-normal leading-[24px] hover:after:w-[100%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#02CDCF] after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
+                                className=" text-[#5A594D] opacity-[70%] font-Exo text-base font-normal leading-[24px] hover:text-[#131200] duration-300 hover:opacity-75"
                             >
                                 FAQ
                             </a>

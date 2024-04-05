@@ -13,9 +13,16 @@ import Head from 'next/head'
 import Preloder from "./components/Preloder";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
+  const [data, setdata] = useState(false);
+  useEffect(() => {
+    setdata(true);
+    setTimeout(() => {
+      setdata(false);
+    }, 4000);
+  }, []);
   useEffect(() => {
     AOS.init(
       {
@@ -25,22 +32,49 @@ export default function Home() {
     );
   }, [])
   return (
-    <>
-      {/* <Preloder /> */}
+    <div className="overflow-hidden">
       <Head>
         <title> Noble Mind</title>
         <meta property="og:image" content="https://i.ibb.co/6nGGxH4/confranceimg.png" />
         <meta property="twitter:image" content="https://i.ibb.co/6nGGxH4/confranceimg.png" />
       </Head>
-      <Navsec />
-      <Headersec />
-      <Mission />
-      <Inovation />
-      <Formsec />
-      <Faqsec />
-      <Newslatter />
-      <Footersec />
-      <Backtotop />
-    </>
+      {data ? (
+        <div>{<Preloder />}</div>
+      ) : (
+        <div className="App ">
+          <div className="bg-bg_image sm:min-h-screen min-h-[500px] flex flex-col lg:bg-BgSize bg-cover bg-center bg-repeat  ">
+            <Navsec />
+            <Headersec />
+          </div>
+          <Mission />
+          <Inovation />
+          <Formsec />
+          <Faqsec />
+          <Newslatter />
+          <Footersec />
+          <Backtotop />
+        </div>
+      )}
+    </div>
+
   );
 }
+// {
+//   data ? (
+//     <div>{<Preloader />}</div>
+//   ) : (
+//     <div className="App ">
+//         <div className="bg-bg_image sm:min-h-screen min-h-[500px] flex flex-col lg:bg-BgSize bg-cover bg-center bg-repeat  ">
+//           <Navsec />
+//           <Headersec />
+//         </div>
+//         <Mission />
+//         <Inovation />
+//         <Formsec />
+//         <Faqsec />
+//         <Newslatter />
+//         <Footersec />
+//         <Backtotop />
+//     </div>
+//   )
+// }

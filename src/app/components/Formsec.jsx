@@ -70,9 +70,9 @@ export default function Formsec() {
     };
     return (
         <>
-            <div className="max-w-[1140px] mx-auto px-3 py-24">
+            <div className="max-w-[1140px] container mx-auto px-3 md:py-16 py-10 lg:py-24" id="service">
                 <div className="flex flex-wrap lg:flex-row flex-col-reverse -mx-3">
-                    <div className="lg:w-1/2 w-full lg:pt-0 pt-7 lg:pr-12  px-3">
+                    <div className="lg:w-1/2 w-full lg:pt-0 pt-7 lg:pr-12  px-3" data-aos="fade-right">
                         <h2 className="text-[#131200] lg:max-w-[560px] font-Outfit font-semibold  lg:text-[48px]  sm:text-5xl text-3xl md:leading-[57.6px] pt-3 max-lg:text-center">Contact <span className="font-Outfit font-light "> Us</span></h2>
                         <p className="text-[#131200] lg:max-w-[409px] opacity-[70%] font-Exo sm:text-base text-sm font-normal md:leading-[24px] pb-1 max-lg:text-center pt-2">Feel free to contact us any time . We will get back to you as soon as we can! </p>
                         <form onSubmit={handleSubmit}>
@@ -178,7 +178,7 @@ export default function Formsec() {
                             </div>
                         )}
                     </div>
-                    <div className="lg:w-1/2 w-full px-3 max-lg:flex justify-center ">
+                    <div className="lg:w-1/2 w-full px-3 max-lg:flex justify-center" data-aos="fade-left">
                         <Image
                             src="/assets/images/formimg.png"
                             alt="logo" width={598}
