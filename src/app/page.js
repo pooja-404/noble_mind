@@ -43,13 +43,13 @@ export default function Home() {
         <meta property="og:url" content="https://noble-mind-umv3.vercel.app/" />
         <meta property="og:title" content="Noble-mind" />
         <meta property="og:description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
-        <meta property="og:image" content="https://i.ibb.co/6nGGxH4/confranceimg.png" />
+        <meta property="og:image" content="https://i.ibb.co/mJBjgdH/Screenshot-2024-04-05-115018.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://noble-mind-umv3.vercel.app/" />
         <meta property="twitter:title" content="Noble-mind" />
         <meta property="twitter:description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
-        <meta property="twitter:image" content="https://i.ibb.co/6nGGxH4/confranceimg.png" />
+        <meta property="twitter:image" content="https://i.ibb.co/mJBjgdH/Screenshot-2024-04-05-115018.png" />
 
       </Head>
       {data ? (
