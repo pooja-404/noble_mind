@@ -27,9 +27,9 @@ export default function Footersec() {
                             </a>
                         </div>
                     </div>
-                    <div className='lg:w-4/12 w-full px-3 pt-7 lg:pt-0 flex justify-end flex-col'data-aos="fade-left">
+                    <div className='lg:w-4/12 w-full px-3 pt-7 lg:pt-0 lg:flex justify-end flex-col'data-aos="fade-left">
                         <div className='flex flex-wrap flex-row -mx-3'>
-                            <div className='w-1/2 px-3  flex justify-end flex-col items-end'>
+                            <div className='w-1/2 px-3  lg:flex justify-end flex-col items-end'>
                                 <ul>
                                     <li className=" font-Outfit  font-semibold sm:text-base text-sm md:leading-[24px] text-white">Maine</li>
                                     <li className='lg:pt-4 pt-2'><a href="#home" className='font-Exo sm:text-base text-sm font-normal md:leading-[24px] text-[#FDFDFF] opacity-[70%]  relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-5px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#A854E9] '>Home</a></li>
@@ -39,7 +39,7 @@ export default function Footersec() {
                                 </ul>
 
                             </div>
-                            <div className='w-1/2 px-3  flex justify-end flex-col items-end '>
+                            <div className='w-1/2 px-3  lg:flex justify-end flex-col items-end '>
                                 <ul>
                                     <li className=" font-Outfit  font-semibold sm:text-base text-sm leading-[24px] text-white">Legal</li>
                                     <li className='lg:pt-4 pt-2'><a href="#choose" className='font-Exo sm:text-base text-sm font-normal md:leading-[24px] text-[#FDFDFF] opacity-[70%]  relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-5px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#A854E9] text-nowrap'>Term & Conduction</a></li>
