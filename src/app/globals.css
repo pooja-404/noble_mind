@@ -85,13 +85,6 @@
   overflow: hidden;
 }
 
-::placeholder {
-  color: #FDFDFF !important;
-  font-family: 'Outfit', sans-serif !important;
-  font-weight: 600 !important;
-  line-height: 24px !important;
-
-}
 
 @media (max-width: 992px) {
   .mobileView {
@@ -105,6 +98,6 @@
     transition: 500ms linear;
     background: white;
     min-height: 100vh;
-
   }
+  
 }
