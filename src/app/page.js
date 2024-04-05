@@ -43,7 +43,7 @@ export default function Home() {
         <meta property="og:url" content="https://noble-mind-umv3.vercel.app/" />
         <meta property="og:title" content="Noble-mind" />
         <meta property="og:description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
-        <meta property="og:image" content="https://i.ibb.co/7QBQ1wm/Screenshot-2024-04-05-145909.png" />
+        <meta property="og:image" content="https://i.ibb.co/YpcrB1s/Screenshot-2023-11-03-105406.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
@@ -51,7 +51,7 @@ export default function Home() {
         <meta property="twitter:url" content="https://noble-mind-umv3.vercel.app/" />
         <meta property="twitter:title" content="Noble-mind" />
         <meta property="twitter:description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
-        <meta property="twitter:image" content="https://i.ibb.co/7QBQ1wm/Screenshot-2024-04-05-145909.png" />
+        <meta property="twitter:image" content="https://i.ibb.co/YpcrB1s/Screenshot-2023-11-03-105406.png" />
       </Head>
       {data ? (
         <div>{<Preloder />}</div>
