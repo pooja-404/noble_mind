@@ -34,7 +34,6 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
       <Head>
-
         <title>Noble-mind</title>
         <meta name="title" content="Noble-mind" />
         <meta name="description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
@@ -50,7 +49,6 @@ export default function Home() {
         <meta property="twitter:title" content="Noble-mind" />
         <meta property="twitter:description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
         <meta property="twitter:image" content="https://ibb.co/5T90wC5" />
-
       </Head>
       {data ? (
         <div>{<Preloder />}</div>

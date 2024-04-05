@@ -29,7 +29,7 @@ export default function Faqsec() {
                     <h2 className="text-[#000000]  font-Outfit  lg:text-[48px]  sm:text-5xl text-3xl font-light md:leading-[57.6px] pt-3 text-center">Frequently <span className="font-Montserrat font-semibold ">Asked Questions</span></h2>
                     <p className="text-[#131200] max-w-[491px]  font-Exo sm:text-base text-sm pt-4 font-normal md:leading-[24px] pb-9 opacity-[70%] text-center mx-auto" data-aos="zoom-in">Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu volutpat mi leo. Nibh nisl consequat metus.</p>
                     <Accordion
-                        className={`border  mb-5 rounded-[10px] shadow-[0px_4px_32px_0px_#00000014] border-[#A854E933] after:w-full relative after:absolute after:h-[5px] after:bg-[#A854E9] after:bottom-0 after:left-0 after:right-0 overflow-hidden  ${open === 1 ? "border-[#A854E9] after:block" : "after:hidden"} py-4 px-5`} data-aos="fade-up-right"
+                        className={`border  mb-5 rounded-[10px] shadow-[0px_4px_32px_0px_#00000014] border-[#A854E933] after:w-full relative after:absolute after:h-[5px] after:bg-[#A854E9] after:bottom-0 after:left-0 after:right-0 overflow-hidden  ${open === 1 ? "border-[#A854E9] after:block" : "after:hidden"} py-5 px-5`} data-aos="fade-up-right"
                         open={open === 1 }
                         icon={<Icon id={1} open={open} />}
                     >
@@ -44,7 +44,7 @@ export default function Faqsec() {
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className={`border  mb-5 rounded-[10px] shadow-[0px_4px_32px_0px_#00000014] border-[#A854E933] after:w-full relative after:absolute after:h-[5px] after:bg-[#A854E9] after:bottom-0 after:left-0 after:right-0 overflow-hidden  ${open === 2 ? "border-[#A854E9] after:block" : "after:hidden"} py-4 px-5`} data-aos="fade-up-left"
+                        className={`border  mb-5 rounded-[10px] shadow-[0px_4px_32px_0px_#00000014] border-[#A854E933] after:w-full relative after:absolute after:h-[5px] after:bg-[#A854E9] after:bottom-0 after:left-0 after:right-0 overflow-hidden  ${open === 2 ? "border-[#A854E9] after:block" : "after:hidden"} py-5 px-5`} data-aos="fade-up-left"
                         open={open === 2}
                         icon={<Icon id={2} open={open} />}
                     >
@@ -60,7 +60,7 @@ export default function Faqsec() {
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className={`border  mb-5 rounded-[10px] shadow-[0px_4px_32px_0px_#00000014] border-[#A854E933] after:w-full relative after:absolute after:h-[5px] after:bg-[#A854E9] after:bottom-0 after:left-0 after:right-0 overflow-hidden  ${open === 3 ? "border-[#A854E9] after:block" : "after:hidden"} py-4 px-5`} data-aos="fade-up-right"
+                        className={`border  mb-5 rounded-[10px] shadow-[0px_4px_32px_0px_#00000014] border-[#A854E933] after:w-full relative after:absolute after:h-[5px] after:bg-[#A854E9] after:bottom-0 after:left-0 after:right-0 overflow-hidden  ${open === 3 ? "border-[#A854E9] after:block" : "after:hidden"} py-5 px-5`} data-aos="fade-up-right"
                         open={open === 3}
                         icon={<Icon id={3} open={open} />}
                     >
@@ -75,7 +75,7 @@ export default function Faqsec() {
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className={`border  mb-5 rounded-[10px] shadow-[0px_4px_32px_0px_#00000014] border-[#A854E933] after:w-full relative after:absolute after:h-[5px] after:bg-[#A854E9] after:bottom-0 after:left-0 after:right-0 overflow-hidden  ${open === 4 ? "border-[#A854E9] after:block" : "after:hidden"} py-4 px-5`} data-aos="fade-up-left"
+                        className={`border  mb-5 rounded-[10px] shadow-[0px_4px_32px_0px_#00000014] border-[#A854E933] after:w-full relative after:absolute after:h-[5px] after:bg-[#A854E9] after:bottom-0 after:left-0 after:right-0 overflow-hidden  ${open === 4 ? "border-[#A854E9] after:block" : "after:hidden"} py-5 px-5`} data-aos="fade-up-left"
                         open={open === 4}
                         icon={<Icon id={4} open={open} />}
                     >
@@ -90,7 +90,7 @@ export default function Faqsec() {
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className={`border  mb-5 rounded-[10px] shadow-[0px_4px_32px_0px_#00000014] border-[#A854E933] after:w-full relative after:absolute after:h-[5px] after:bg-[#A854E9] after:bottom-0 after:left-0 after:right-0 overflow-hidden  ${open === 5 ? "border-[#A854E9] after:block" : "after:hidden"} py-4 px-5`} data-aos="fade-up-left"
+                        className={`border  mb-5 rounded-[10px] shadow-[0px_4px_32px_0px_#00000014] border-[#A854E933] after:w-full relative after:absolute after:h-[5px] after:bg-[#A854E9] after:bottom-0 after:left-0 after:right-0 overflow-hidden  ${open === 5 ? "border-[#A854E9] after:block" : "after:hidden"} py-5 px-5`} data-aos="fade-up-left"
                         open={open === 5}
                         icon={<Icon id={5} open={open} />}
                     >

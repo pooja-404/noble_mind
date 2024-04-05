@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Noble-mind",
   description: "Inspiring Innovation, Elevating Solutions – Noble Mind",
+  
 };
 
 export default function RootLayout({ children }) {
