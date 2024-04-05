@@ -11,9 +11,9 @@ module.exports = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        'bg_image': "url('/assets/images/headerbg.png')",
-        'bg_image2': "url('/assets/images/newslatter.png')",
-        'bg_footer': "url('/assets/images/footerbg.png')"
+        'bg_image': "url('/assets/images/headerbg.webp')",
+        'bg_image2': "url('/assets/images/newslatter.webp')",
+        'bg_footer': "url('/assets/images/footerbg.webp')"
       },
       backgroundSize: {
         "BgSize": "100% 100%"

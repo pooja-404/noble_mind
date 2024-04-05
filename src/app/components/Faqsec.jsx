@@ -106,11 +106,11 @@ export default function Faqsec() {
                     </Accordion>
                 </div>
                 <Image
-                    src="/assets/images/lastsecondellipse.png"
+                    src="/assets/images/lastsecondellipse.webp"
                     alt="logo" width={70.97}
                     height={95.49} className="object-contain absolute bottom-48 right-7 lg:block hidden" />
                 <Image
-                    src="/assets/images/accellipse.png"
+                    src="/assets/images/accellipse.webp"
                     alt="logo" width={70.97}
                     height={95.49} className="object-contain absolute top-20 left-7 lg:block hidden" />
             </div>

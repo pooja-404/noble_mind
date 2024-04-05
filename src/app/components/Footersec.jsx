@@ -12,7 +12,7 @@ export default function Footersec() {
                 <div className="flex flex-wrap flex-row -mx-3">
                     <div className="lg:w-8/12 w-full px-3"data-aos="fade-right">
                         <Image
-                            src="/assets/images/footerlogo.png"
+                            src="/assets/images/footerlogo.webp"
                             alt="logo" width={241}
                             height={42} className="object-contain cursor-pointer" />
                         <p className="font-Exo text-base font-normal leading-[24px] text-white pt-7">Follow Us</p>

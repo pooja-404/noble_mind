@@ -28,7 +28,7 @@ export default function Headersec() {
                 <p className="text-[#000000] lg:max-w-[584px]  font-Exo md:text-base text-sm font-normal md:leading-[24px] !opacity-[70%] max-lg:text-center pt-2 " data-aos="fade-right" data-aos-duration="2000">At Noble Mind is a forward-thinking AI specialised company dedicated to reshaping the future of how we live, work, and learn. Our mission is to create ground-breaking AI solutions for Healthcare, Education, and beyond, aligning with Saudi Arabia’s Vision 2030.”</p>
             </div>
             <Image
-                src="/assets/images/sliderellipse2.png"
+                src="/assets/images/missionellipse2.webp"
                 alt="logo" width={70.97}
                 height={95.49} className="object-contain absolute -bottom-9 left-7  lg:block hidden" />
         </div>

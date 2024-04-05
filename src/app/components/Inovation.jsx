@@ -82,10 +82,9 @@ export default function Inovation() {
 
         },
         {
-            text: 3,
-            heading: "Ethical Leadership",
-            para: "Maintain the highest standards in all practices, ensuring our solutions are responsible, safe, and transparent."
-
+            text: 2,
+            heading: "Workplace Harmony",
+            para: "Create a nurturing and peaceful environment for our staff, fostering growth, well-being, and unity. We are more than a team; we are a family."
         },
 
     ]
@@ -125,16 +124,16 @@ export default function Inovation() {
                 <h2 className="text-[#000000]  font-Outfit  lg:text-[48px]  sm:text-5xl text-3xl font-light md:leading-[57.6px] md:pt-3 pt-2 text-center" data-aos="zoom-in">Driving Innovation & <span className="font-Montserrat font-semibold lg:block ">Transforming Industries </span></h2>
                 <Slider  {...settings}>{card}</Slider>
                 <Image
-                    src="/assets/images/confranceimg.png"
+                    src="/assets/images/confranceimg.webp"
                     alt="logo" width={1140}
                     height={527} className="object-cover  rounded-[24px] md:h-[527px] h-[300px]" data-aos="zoom-in" />
             </div>
             <Image
-                src="/assets/images/sliderellipse.png"
+                src="/assets/images/sliderellipse.webp"
                 alt="logo" width={70.97}
                 height={95.49} className="object-contain absolute bottom-0 right-7 -z-10 lg:block hidden" />
             <Image
-                src="/assets/images/sliderellipse2.png"
+                src="/assets/images/sliderellipse2.webp"
                 alt="logo" width={70.97}
                 height={95.49} className="object-contain absolute top-0 left-7 -z-10 lg:block hidden" />
         </div>

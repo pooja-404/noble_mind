@@ -8,7 +8,7 @@ export default function Mission() {
                 <div className="flex flex-wrap flex-row -mx-3">
                     <div className='lg:w-1/2 w-full px-3 lg:pr-10 max-lg:flex justify-center' data-aos="fade-right">
                         <Image
-                            src="/assets/images/missionimg.png"
+                            src="/assets/images/missionimg.webp"
                             alt="logo" width={554}
                             height={567} className="object-contain rounded-[0px_50px_0px_0px] " />
                     </div>
@@ -40,7 +40,7 @@ export default function Mission() {
                 </div>
             </div>
             <Image
-                src="/assets/images/sliderellipse.png"
+                src="/assets/images/sliderellipse.webp"
                 alt="logo" width={70.97}
                 height={95.49} className="object-contain absolute bottom-10 right-7 -z-10 lg:block hidden" />
         </div>

@@ -33,6 +33,7 @@ export default function Home() {
   }, [])
   return (
     <div className="overflow-hidden">
+
       <Head>
         <title>Noble-mind</title>
         <meta name="title" content="Noble-mind" />
@@ -42,13 +43,13 @@ export default function Home() {
         <meta property="og:url" content="https://noble-mind-umv3.vercel.app/" />
         <meta property="og:title" content="Noble-mind" />
         <meta property="og:description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
-        <meta property="og:image" content="https://ibb.co/5T90wC5" />
+        <meta property="og:image" content="https://i.ibb.co/7QBQ1wm/Screenshot-2024-04-05-145909.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://noble-mind-umv3.vercel.app/" />
         <meta property="twitter:title" content="Noble-mind" />
         <meta property="twitter:description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
-        <meta property="twitter:image" content="https://ibb.co/5T90wC5" />
+        <meta property="twitter:image" content="https://i.ibb.co/7QBQ1wm/Screenshot-2024-04-05-145909.png" />
       </Head>
       {data ? (
         <div>{<Preloder />}</div>

@@ -17,7 +17,7 @@ export default function Navsec() {
             <nav className="container max-w-[1140px] mx-auto px-3 ">
                 <div className='flex py-4 justify-between'>
                     <Image
-                        src="/assets/images/logo.png"
+                        src="/assets/images/logo.webp"
                         alt="logo" width={221.86}
                         height={38.43} className="object-contain cursor-pointer" />
                     <ul

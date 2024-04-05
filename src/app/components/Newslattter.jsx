@@ -9,11 +9,11 @@ export default function Newslatter() {
                 <p className="font-Exo sm:text-base text-sm font-normal md:leading-[24px] text-[#FDFDFF] text-center pt-2" data-aos="zoom-in-down">Be the first to get exclusive offers and the latest news.</p>
                 <div className='pl-5 pr-3 py-2 bg-[#FFFFFF0D] rounded-[6px] border border-[#FDFDFF33] mx-auto md:w-[448px] w-full flex justify-between items-center mt-5 lg:mt-10 ' data-aos="zoom-in-down">
                     <input type="text" placeholder='Enter your email' className='!text-[#FDFDFF]  font-Outfit  font-semibold sm:text-base text-[11px] md:leading-[24px] outline-0 bg-transparent' />
-                    <Button name='border border-[#FDFDFF]' text='Subscribe' />
+                    <Button name='border border-[#FDFDFF] hover:border-transparent' text='Subscribe' />
                 </div>
             </div>
             <Image
-                src="/assets/images/lastellipse.png"
+                src="/assets/images/lastellipse.webp"
                 alt="logo" width={70.97}
                 height={95.49} className="object-contain absolute top-0 left-7 -z-10 lg:block hidden" />
         </div>

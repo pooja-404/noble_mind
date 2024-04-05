@@ -180,7 +180,7 @@ export default function Formsec() {
                     </div>
                     <div className="lg:w-1/2 w-full px-3 max-lg:flex justify-center" data-aos="fade-left">
                         <Image
-                            src="/assets/images/formimg.png"
+                            src="/assets/images/formimg.webp"
                             alt="logo" width={598}
                             height={572} className="object-cover rounded-[12px] lg:h-full lg:w-full" />
                     </div>
