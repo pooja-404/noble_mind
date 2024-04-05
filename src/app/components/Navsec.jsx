@@ -15,7 +15,7 @@ export default function Navsec() {
     return (
         <>
             <nav className="container max-w-[1140px] mx-auto px-3 ">
-                <div className='flex py-8   justify-between'>
+                <div className='flex py-4 justify-between'>
                     <Image
                         src="/assets/images/logo.png"
                         alt="logo" width={221.86}

@@ -34,15 +34,29 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
       <Head>
-        <title> Noble Mind</title>
+
+        <title>Noble-mind</title>
+        <meta name="title" content="Noble-mind" />
+        <meta name="description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://noble-mind-umv3.vercel.app/" />
+        <meta property="og:title" content="Noble-mind" />
+        <meta property="og:description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
         <meta property="og:image" content="https://i.ibb.co/6nGGxH4/confranceimg.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://noble-mind-umv3.vercel.app/" />
+        <meta property="twitter:title" content="Noble-mind" />
+        <meta property="twitter:description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
         <meta property="twitter:image" content="https://i.ibb.co/6nGGxH4/confranceimg.png" />
+
       </Head>
       {data ? (
         <div>{<Preloder />}</div>
       ) : (
         <div className="App ">
-          <div className="bg-bg_image sm:min-h-screen min-h-[500px] flex flex-col lg:bg-BgSize bg-cover bg-center bg-repeat  ">
+          <div className="bg-bg_image sm:min-h-screen object-contain min-h-[500px] flex flex-col lg:bg-BgSize bg-cover bg-center bg-repeat  ">
             <Navsec />
             <Headersec />
           </div>

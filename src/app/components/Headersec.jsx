@@ -25,7 +25,7 @@ export default function Headersec() {
                     <p className="text-[#131200] font-Exo sm:text-base text-sm font-normal md:leading-[24px]" data-aos="fade-right" data-aos-duration="2000">AI With Noble Mind</p>
                 </div>
                 <h2 className="text-[#000] lg:max-w-[584px] font-Outfit  lg:text-[64px] sm:text-6xl text-4xl font-light md:leading-[76.8px] max-lg:text-center" data-aos="fade-right" data-aos-duration="2000">Inspiring Innovation, Elevating Solutions – <span className="font-Montserrat font-extrabold ">Noble Mind</span>&quot;</h2>
-                <p className="text-[#131200] lg:max-w-[584px]  font-Exo md:text-base text-sm font-normal md:leading-[24px] opacity-[70%] max-lg:text-center pt-2" data-aos="fade-right" data-aos-duration="2000">At Noble Mind is a forward-thinking AI specialised company dedicated to reshaping the future of how we live, work, and learn. Our mission is to create ground-breaking AI solutions for Healthcare, Education, and beyond, aligning with Saudi Arabia’s Vision 2030.”</p>
+                <p className="text-[#000000] lg:max-w-[584px]  font-Exo md:text-base text-sm font-normal md:leading-[24px] !opacity-[70%] max-lg:text-center pt-2 " data-aos="fade-right" data-aos-duration="2000">At Noble Mind is a forward-thinking AI specialised company dedicated to reshaping the future of how we live, work, and learn. Our mission is to create ground-breaking AI solutions for Healthcare, Education, and beyond, aligning with Saudi Arabia’s Vision 2030.”</p>
             </div>
             <Image
                 src="/assets/images/sliderellipse2.png"

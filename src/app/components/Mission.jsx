@@ -6,13 +6,13 @@ export default function Mission() {
         <div className="relative z-1">
             <div className="max-w-[1140px] container mx-auto px-3 md:my-16 my-10 lg:my-24" id="about">
                 <div className="flex flex-wrap flex-row -mx-3">
-                    <div className='lg:w-1/2 w-full px-3 max-lg:flex justify-center' data-aos="fade-right">
+                    <div className='lg:w-1/2 w-full px-3 lg:pr-10 max-lg:flex justify-center' data-aos="fade-right">
                         <Image
                             src="/assets/images/missionimg.png"
                             alt="logo" width={554}
                             height={567} className="object-contain rounded-[0px_50px_0px_0px] " />
                     </div>
-                    <div className="lg:w-1/2 w-full px-3 lg:pl-10 pt-7 lg:pt-0"data-aos="fade-left">
+                    <div className="lg:w-1/2 w-full px-3  pt-7 lg:pt-0"data-aos="fade-left">
                         <div className=" flex gap-2 items-center max-lg:justify-center">
                             <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M13.9187 6.87573L11.1603 14.2314L3.80469 16.9897L11.1603 19.7481L13.9187 27.1037L16.677 19.7481L24.0327 16.9897L16.677 14.2314L13.9187 6.87573Z" fill="#00EAEC" />
@@ -33,8 +33,8 @@ export default function Mission() {
 
                             <p className="text-[#131200] font-Exo sm:text-base text-sm font-normal md:leading-[24px] ">About Us</p>
                         </div>
-                        <h2 className="text-[#000000] lg:max-w-[560px] font-Outfit  lg:text-[48px]  sm:text-5xl text-3xl font-light md:leading-[57.6px] pt-3 max-lg:text-center ">Pioneering Vision & Mission- <span className="font-Outfit font-semibold ">Driven Sectoral Innovation</span></h2>
-                        <p className="text-[#131200] lg:max-w-[491px]  font-Exo sm:text-base text-sm font-normal md:leading-[24px] pb-9 pt-4 max-lg:text-center opacity-[70%]">Imagine a future in Saudi Arabia influenced by the potential of Al, with Noble Mind at the forefront of this transformation. Healthcare stands to gain with the promise of enhanced data precision. In education, there&&apos;s the potential for individualized learning experiences. Finance could witness seamless transactions, and entertainment may revel in customized experiences. Through Al,&apos;s promise, transportation could innovate and cities might adapt smarter infrastructures. In every domain, the vision of Noble Mind hints at a brighter, more efficient nation.</p>
+                        <h2 className="text-[#000000]  font-Outfit  lg:text-[48px]  sm:text-5xl text-3xl font-light md:leading-[57.6px] pt-3 max-lg:text-center ">Pioneering Vision & Mission- <span className="font-Outfit font-semibold ">Driven Sectoral Innovation</span></h2>
+                        <p className="text-[#000000] lg:max-w-[491px] font-Exo sm:text-base text-sm font-normal md:leading-[24px] pb-9 pt-4 max-lg:text-center opacity-[70%]">Imagine a future in Saudi Arabia influenced by the potential of Al, with Noble Mind at the forefront of this transformation. Healthcare stands to gain with the promise of enhanced data precision. In education, there&&apos;s the potential for individualized learning experiences. Finance could witness seamless transactions, and entertainment may revel in customized experiences. Through Al,&apos;s promise, transportation could innovate and cities might adapt smarter infrastructures. In every domain, the vision of Noble Mind hints at a brighter, more efficient nation.</p>
                         <Button name='bg-gradient'  text='Read More' />
                     </div>
                 </div>
