@@ -44,6 +44,8 @@ export default function Home() {
         <meta property="og:title" content="Noble-mind" />
         <meta property="og:description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
         <meta property="og:image" content="https://i.ibb.co/7QBQ1wm/Screenshot-2024-04-05-145909.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://noble-mind-umv3.vercel.app/" />
