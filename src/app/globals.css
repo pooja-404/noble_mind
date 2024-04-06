@@ -84,8 +84,6 @@
   position: relative;
   overflow: hidden;
 }
-
-
 @media (max-width: 992px) {
   .mobileView {
     z-index: 20;

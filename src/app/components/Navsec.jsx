@@ -19,7 +19,7 @@ export default function Navsec() {
                     <Image
                         src="/assets/images/logo.webp"
                         alt="logo" width={221.86}
-                        height={38.43} className="object-contain cursor-pointer" />
+                        height={38.43} className="object-contain cursor-pointer max-w-[221px]" />
                     <ul
                         className={`gap-5 flex mobileView  items-center ${show ? "right-0" : "right-[-100%]"}`}
                     >
