@@ -10,7 +10,7 @@ export default function Newslatter() {
                 <div className='pl-5 pr-3 box-border py-2 bg-[#FFFFFF0D] rounded-[6px] border border-[#FDFDFF33] mx-auto md:w-[448px] w-full flex justify-between items-center mt-5 lg:mt-10 ' data-aos="zoom-in-down">
                     <input type="text" placeholder='Enter your email' className='placeholder:text-[#FDFDFF] placeholder:font-Outfit  placeholder:font-semibold placeholder:sm:text-base placeholder:text-[11px] placeholder:md:leading-[24px] outline-0 bg-transparent' />
                     {/* <Button name='border box-border !border-solid !border-[#FDFDFF] ' text='Subscribe' /> */}
-                    <input type="button" value="Subscribe" className="border-[#FDFDFF]  border cursor-pointer p-[14px_17px_14px_17px] sm:p-[14px_24px_14px_24px] text-[#FDFDFF]  rounded-[4px] hover:bg-white hover:!text-[#A854E9] duration-500 font-Outfit font-semibold sm:text-base text-sm md:leading-[24px]" />
+                    <input type="button" value="Subscribe" className="border-[#FDFDFF]  border cursor-pointer !p-[14px_15px_14px_15px] sm:p-[14px_24px_14px_24px] text-[#FDFDFF]  rounded-[4px] hover:bg-white hover:!text-[#A854E9] duration-500 font-Outfit font-semibold sm:text-base text-sm md:leading-[24px]" />
                 </div>
             </div>
             <Image
