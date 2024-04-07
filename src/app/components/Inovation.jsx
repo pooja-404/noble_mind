@@ -88,8 +88,8 @@ export default function Inovation() {
         },
 
     ]
-    const card = cards.map((cards, i) => (<div key={i} className={`lg:w-1/3 md:w-2/4   w-full px-2 flex justify-center group duration-500 lg:py-16 md:pt-10 pt-7 pb-16 ${cards.botm}`}>
-        <div className=" lg:w-[364px] h-[208px] slider-box p-4 rounded-[12px] border-[1px] border-solid border-[#A854E933] " data-aos={`${cards.animation}`} data-aos-duration="1000" data-aos-offset="500"
+    const card = cards.map((cards, i) => (<div key={i} className={`lg:w-1/3 md:w-2/4   w-full mx-4 flex justify-center group duration-500 lg:py-16 md:pt-10 pt-7 pb-16 ${cards.botm}`}>
+        <div className=" lg:w-[364px] h-[208px] slider-box p-4   rounded-[12px] border-[1px] border-solid border-[#A854E933] " data-aos={`${cards.animation}`} data-aos-duration="1000" data-aos-offset="500"
             data-aos-easing="ease-in-sine" style={{ backgroundImage: `url(${cards.bg})` }}>
             <div className='w-[50px] h-[50px] opacity-3 rounded-full border-[#A854E93D] border-solid border-[10px]  flex justify-center items-center'>
                 <p className='font-Outfit font-bold text-[24px] leading-[50px] text-gradient'>{cards.text}</p>
@@ -99,7 +99,7 @@ export default function Inovation() {
         </div>
     </div>));
     return (
-        <div className="relative z-1 overflow-hidden " id="choose">
+        <div className="relative z-1 overflow-x-clip" id="choose">
             <div className="max-w-[1140px] container  mx-auto px-3">
                 <div className=" flex gap-2 items-center justify-center" data-aos="zoom-in">
                     <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
