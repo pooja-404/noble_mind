@@ -15,6 +15,7 @@ export default function Inovation() {
         speedAutoplay: 0,
         centerMode: true,
         centerPadding: '-10px',
+        VariableWidth: false,
         responsive: [
             {
                 breakpoint: 1400,
@@ -23,15 +24,17 @@ export default function Inovation() {
                     slidesToScroll: 1,
                     centerMode: true,
                     centerPadding: '-10px',
+                    VariableWidth: false,
                 }
             },
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 2.5,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     centerMode: true,
                     centerPadding: '-10px',
+                    VariableWidth: false,
                 }
             },
             {
@@ -41,6 +44,7 @@ export default function Inovation() {
                     slidesToScroll: 1,
                     centerMode: false,
                     centerPadding: '-10px',
+                    VariableWidth: false,
                 }
             },
             {
@@ -50,6 +54,7 @@ export default function Inovation() {
                     slidesToScroll: 1,
                     centerMode: false,
                     centerPadding: '-10px',
+                    VariableWidth: false,
                 }
             },
             {
@@ -59,6 +64,7 @@ export default function Inovation() {
                     slidesToScroll: 1,
                     centerMode: false,
                     centerPadding: '-10px',
+                    VariableWidth: false,
                 }
             },
         ],
@@ -88,10 +94,10 @@ export default function Inovation() {
         },
 
     ]
-    const card = cards.map((cards, i) => (<div key={i} className={`lg:w-1/3 md:w-2/4   w-full mx-4 flex justify-center group duration-500 lg:py-16 md:pt-10 pt-7 pb-16 ${cards.botm}`}>
-        <div className=" lg:w-[364px] h-[208px] slider-box p-4   rounded-[12px] border-[1px] border-solid border-[#A854E933] " data-aos={`${cards.animation}`} data-aos-duration="1000" data-aos-offset="500"
+    const card = cards.map((cards, i) => (<div key={i} className={`lg:w-1/3 md:w-2/4  w-full flex justify-center group duration-500 lg:py-16 md:pt-10 pt-7 pb-16 ${cards.botm}`}>
+        <div className=" xl:max-w-[364px] h-[208px] mx-2 slider-box p-4 rounded-[12px] border-[1px] border-solid border-[#A854E933] " data-aos={`${cards.animation}`} data-aos-duration="1000" data-aos-offset="500"
             data-aos-easing="ease-in-sine" style={{ backgroundImage: `url(${cards.bg})` }}>
-            <div className='w-[50px] h-[50px] opacity-3 rounded-full border-[#A854E93D] border-solid border-[10px]  flex justify-center items-center'>
+            <div className='w-[50px] h-[50px] opacity-3 rounded-full mx-3 border-[#A854E93D] border-solid border-[10px]  flex justify-center items-center'>
                 <p className='font-Outfit font-bold text-[24px] leading-[50px] text-gradient'>{cards.text}</p>
             </div>
             <h2 className='text-[#131200] pt-3 font-Outfit font-normal text-xl sm:text-xl lg:leading-[25.2px]  max-w-[212px]'> {cards.heading}</h2>
@@ -118,7 +124,6 @@ export default function Inovation() {
                             </linearGradient>
                         </defs>
                     </svg>
-
                     <p className="text-[#131200] font-Exo text-base font-normal leading-[24px]">Why Choose Us</p>
                 </div>
                 <h2 className="text-[#000000]  font-Outfit  lg:text-[48px]  sm:text-5xl text-3xl font-light md:leading-[57.6px] md:pt-3 pt-2 text-center" data-aos="zoom-in">Driving Innovation & <span className="font-Montserrat font-semibold lg:block ">Transforming Industries </span></h2>
