@@ -50,7 +50,7 @@ export default function Inovation() {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1.5,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     centerMode: false,
                     centerPadding: '-10px',
