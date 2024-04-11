@@ -1,7 +1,8 @@
 "use client";
 import Button from "./Button";
 import Image from "next/image"
-export default function Newslatter() {
+export default function Newslatter()
+{
     return (
         <div className="relative z-1 max-lg:mt-[-86px] px-3" id="blogs">
             <div className="max-w-[1140px] container mx-auto px-3 bg-bg_image2 md:h-[318px] h-full py-7 md:py-0 rounded-[20px] flex  justify-center flex-col translate-y-20">

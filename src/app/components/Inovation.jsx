@@ -69,7 +69,6 @@ export default function Inovation() {
             },
         ],
     };
-
     const cards = [
         {
             text: 1,
@@ -105,7 +104,7 @@ export default function Inovation() {
         </div>
     </div>));
     return (
-        <div className="relative z-1 overflow-x-clip" id="choose">
+        <div className="relative z-1 " id="choose">
             <div className="max-w-[1140px] container  mx-auto px-3">
                 <div className=" flex gap-2 items-center justify-center" data-aos="zoom-in">
                     <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">

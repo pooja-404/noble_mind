@@ -2,6 +2,7 @@
 import Image from "next/image"
 import { useState } from "react";
 import Button from "./Button";
+import { NavLogo } from "./Icons";
 export default function Navsec() {
     const [show, setshow] = useState(false);
     function view() {
@@ -16,10 +17,7 @@ export default function Navsec() {
         <>
             <nav className="container max-w-[1140px] mx-auto px-3 ">
                 <div className='flex py-4 justify-between'>
-                    <Image
-                        src="/assets/images/logo.webp"
-                        alt="logo" width={221.86}
-                        height={38.43} className="object-contain cursor-pointer max-w-[221px]" />
+                    <a href=""><NavLogo /></a>
                     <ul
                         className={`gap-5 flex mobileView  items-center ${show ? "right-0" : "right-[-100%]"}`}
                     >

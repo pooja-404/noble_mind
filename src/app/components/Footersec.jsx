@@ -2,7 +2,7 @@
 "use client";
 import Image from "next/image"
 import React from 'react'
-import { FooterFacebook, FooterInsta, FooterTwiter, FooterLinkdin } from "./Icons"
+import { FooterFacebook, FooterInsta, FooterTwiter, FooterLinkdin, FooterLogo } from "./Icons"
 export default function Footersec() {
     const Dates = new Date()
     const year = Dates.getFullYear()
@@ -11,10 +11,7 @@ export default function Footersec() {
             <div className="max-w-[1140px] mx-auto px-3 lg:pb-16 pb-9 pt-32">
                 <div className="flex flex-wrap flex-row -mx-3">
                     <div className="lg:w-8/12 w-full px-3"data-aos="fade-right">
-                        <Image
-                            src="/assets/images/footerlogo.webp"
-                            alt="logo" width={241}
-                            height={42} className="object-contain cursor-pointer" />
+                        <a href=""><FooterLogo/></a>
                         <p className="font-Exo text-base font-normal leading-[24px] text-white pt-7">Follow Us</p>
                         <div className="flex gap-3 pt-5">
                             <a href="https://www.facebook.com" target="_blank" className="hover:translate-y-[-5px] hover:shadow-[0px_5px_8px_#A854E9] transition-all ease-linear duration-500 rounded-[50px]"><FooterFacebook />
