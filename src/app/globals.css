@@ -11,22 +11,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.font-Exo {
-  font-family: "Exo 2", sans-serif;
-}
-
-.font-Outfit {
-  font-family: "Outfit", sans-serif;
-}
-
-.font-Montserrat {
-  font-family: "Montserrat", sans-serif;
-}
-
-.bg-gradient {
-  background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
-}
-
 .text-gradient {
   background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
   -webkit-background-clip: text !important;
@@ -78,7 +62,7 @@
   position: relative;
   overflow: hidden;
 }
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .mobileView {
     z-index: 20;
     position: fixed;

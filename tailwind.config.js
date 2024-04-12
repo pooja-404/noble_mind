@@ -1,3 +1,5 @@
+const { Montserrat } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,12 +10,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Exo: "Exo 2",
+        Outfit: "Outfit",
+        Montserrat:"Montserrat",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         'bg_image': "url('/assets/images/headerbg.webp')",
         'bg_image2': "url('/assets/images/newslatter.webp')",
-        'bg_footer': "url('/assets/images/footerbg.webp')"
+        'bg_footer': "url('/assets/images/footerbg.webp')",
+        'btngradient': "linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);",
       },
       backgroundSize: {
         "BgSize": "100% 100%"

@@ -94,7 +94,7 @@ export default function Inovation() {
 
     ]
     const card = cards.map((cards, i) => (<div key={i} className={`lg:w-1/3 md:w-2/4  w-full flex justify-center group duration-500 lg:py-16 md:pt-10 pt-7 pb-16 ${cards.botm}`}>
-        <div className=" xl:max-w-[364px] h-[220px]  mx-2 slider-box p-4 rounded-[12px] border-[1px]  border-solid border-[#A854E933]" data-aos={`${cards.animation}`} data-aos-duration="1000" data-aos-offset="500"
+        <div className=" xl:max-w-[364px] h-[220px]   mx-2 slider-box p-4 rounded-[12px] border-[1px]  border-solid border-[#A854E933]" data-aos={`${cards.animation}`} data-aos-duration="1000" data-aos-offset="500"
             data-aos-easing="ease-in-sine" style={{ backgroundImage: `url(${cards.bg})` }}>
             <div className='w-[50px] h-[50px] opacity-3 rounded-full  border-[#c993f33d] border-solid border-[9px]  flex justify-center items-center'>
                 <p className='font-Outfit font-bold text-[24px] leading-[50px] text-gradient'>{cards.text}</p>
