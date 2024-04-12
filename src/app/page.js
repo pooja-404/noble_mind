@@ -33,34 +33,14 @@ export default function Home() {
   }, [])
   return (
     <div className="overflow-hidden">
+      <>
+        <Head>
+          <title>Noble-Mind</title>
+          <meta name="description" content="Your page description" />
+          <Image src='/assets/images/meta.webp' alt="meta" width={1440} height={600} />
+        </Head>
 
-      {/* <Head>
-        <title>Noble-mind</title>
-        <meta name="title" content="Noble-mind" />
-        <meta name="description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
-
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://noble-mind-umv3.vercel.app/" />
-        <meta property="og:title" content="Noble-mind" />
-        <meta property="og:description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1712229218439-befac221f1f1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://noble-mind-umv3.vercel.app/" />
-        <meta property="twitter:title" content="Noble-mind" />
-        <meta property="twitter:description" content="Inspiring Innovation, Elevating Solutions – Noble Mind" />
-        <meta property="twitter:image" content="https://images.unsplash.com/photo-1712229218439-befac221f1f1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-      </Head> */}
-
-      <Head>
-        <title>Noble-Mind</title>
-        <meta name="description" content="Your page description" />
-        <h1>Your Page Content</h1>
-        <Image src='/assets/images/meta.webp' alt="Your Image Alt Text" width={1440} height={600} />
-      </Head>
-
+      </>
       {data ? (
         <div>{<Preloder />}</div>
       ) : (

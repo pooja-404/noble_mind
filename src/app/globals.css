@@ -34,12 +34,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-.bg-image {
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-}
-
 .slick-dots {
   display: flex !important;
   gap: 4px;

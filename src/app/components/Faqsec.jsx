@@ -7,7 +7,7 @@ import {
     AccordionBody,
 } from "@material-tailwind/react";
 function Icon({ id, open }) {
-    
+
     return (
         <div className="relative ">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={`${id === open ? "" : "rotate-180"
@@ -30,13 +30,13 @@ export default function Faqsec() {
                     <p className="text-[#131200]  max-w-[491px]  font-Exo sm:text-base text-sm pt-4 font-normal md:leading-[24px] pb-9 !opacity-[70%] text-center mx-auto" data-aos="zoom-in">Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu volutpat mi leo. Nibh nisl consequat metus.</p>
                     <Accordion
                         className={`border  mb-5 rounded-[10px] shadow-[0px_4px_32px_0px_#00000014] border-[#A854E933] after:w-full relative after:absolute after:h-[5px] after:bg-[#A854E9] after:bottom-0 after:left-0 after:right-0 overflow-hidden  ${open === 1 ? "border-[#A854E9] after:block" : "after:hidden"} py-5 px-5`}
-                        open={open === 1 }
+                        open={open === 1}
                         icon={<Icon id={1} open={open} />}
                     >
                         <AccordionHeader
                             onClick={() => handleOpen(1)}
-                            className="font-Outfit sm:text-base text-sm  py-0 text-start font-medium text-[#000000] leading-[24px] border-0 "
-                        >
+                            className={`font-Outfit sm:text-base text-sm py-0 text-start font-medium text-[#4d4d4d] leading-[24px] border-0 ${open === 1 ? "text-[#000000]" : ""}`} >
+                        
                             What is Artificial Intelligence (AI)?
                         </AccordionHeader>
                         <AccordionBody className="font-Exo text-sm md:text-base text-[#131200] font-Exo  font-normal md:leading-[24px] max-w-[680px] opacity-[70%] pt-2 pb-0 ">
@@ -50,10 +50,9 @@ export default function Faqsec() {
                     >
                         <AccordionHeader
                             onClick={() => handleOpen(2)}
-                            className="font-Outfit sm:text-base text-sm  py-0 text-start font-medium text-[#000000] leading-[24px] border-0 "
-                        >
+                            className={`font-Outfit sm:text-base text-sm py-0 text-start font-medium text-[#4d4d4d] leading-[24px] border-0 ${open === 2 ? "text-[#000000]" : ""}`} >
                             {" "}
-                            How can our company ensure data security with AI?
+                            How does AI benefit our company?
                         </AccordionHeader>
                         <AccordionBody className="font-Exo text-sm md:text-base text-[#131200] font-Exo  font-normal leading-[24px] max-w-[680px] opacity-[70%] pt-2 pb-0 ">
                             Artificial Intelligence refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
@@ -66,7 +65,7 @@ export default function Faqsec() {
                     >
                         <AccordionHeader
                             onClick={() => handleOpen(3)}
-                            className="font-Outfit sm:text-base text-sm py-0 text-start font-medium text-[#000000] leading-[24px] border-0 " >
+                            className={`font-Outfit sm:text-base text-sm py-0 text-start font-medium text-[#4d4d4d] leading-[24px] border-0 ${open === 3 ? "text-[#000000]" : ""}`} >
                             {" "}
                             What types of AI technologies are relevant to our industry?
                         </AccordionHeader>
@@ -81,8 +80,8 @@ export default function Faqsec() {
                     >
                         <AccordionHeader
                             onClick={() => handleOpen(4)}
-                            className="font-Outfit sm:text-base text-sm py-0 text-start font-medium text-[#000000] leading-[24px] border-0 "
-                        >
+                            className={`font-Outfit sm:text-base text-sm py-0 text-start font-medium text-[#4d4d4d] leading-[24px] border-0 ${open === 4 ? "text-[#000000]" : ""}`} >
+                            {" "}
                             How can our employees adapt to AI integration?
                         </AccordionHeader>
                         <AccordionBody className="font-Exo text-sm md:text-base text-[#131200] font-Exo  font-normal leading-[24px] max-w-[680px] opacity-[70%] pt-2 pb-0 ">
@@ -96,8 +95,8 @@ export default function Faqsec() {
                     >
                         <AccordionHeader
                             onClick={() => handleOpen(5)}
-                            className="font-Outfit sm:text-base text-sm py-0 text-start font-medium text-[#000000] leading-[24px] border-0 "
-                        >
+                            className={`font-Outfit sm:text-base text-sm py-0 text-start font-medium text-[#4d4d4d] leading-[24px] border-0 ${open === 5 ? "text-[#000000]" : ""}`} >
+                            {" "}
                             How can our company ensure data security with AI?
                         </AccordionHeader>
                         <AccordionBody className="font-Exo text-sm md:text-base text-[#131200] font-Exo  font-normal leading-[24px] max-w-[680px] opacity-[70%] pt-2 pb-0 ">
