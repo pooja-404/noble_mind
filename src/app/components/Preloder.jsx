@@ -13,7 +13,6 @@ export default function Preloder() {
                     <h3 className="absolute -rotate-[360deg] text-white text-sm sm:text-xl f font-semibold font-Outfit">Noble-Mind</h3>
                 </p>
             </div>
-
         </div>
     )
 }

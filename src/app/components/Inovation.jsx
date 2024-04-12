@@ -100,7 +100,7 @@ export default function Inovation() {
                 <p className='font-Outfit font-bold text-[24px] leading-[50px] text-gradient'>{cards.text}</p>
             </div>
             <h2 className='text-[#131200] pt-3 font-Outfit font-normal text-xl sm:text-xl lg:leading-[25.2px]  max-w-[212px]'> {cards.heading}</h2>
-            <p className="text-[#131200] font-Exo text-base font-normal leading-[24px] max-w-[303px]  ">{cards.para}</p>
+            <p className="text-[#131200] opacity-[70%] font-Exo text-base font-normal leading-[24px] max-w-[303px] pt-1  ">{cards.para}</p>
         </div>
     </div>));
     return (

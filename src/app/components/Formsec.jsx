@@ -7,13 +7,11 @@ export default function Formsec() {
     const [formData, setFormData] = useState({
         FirstName: "",
         LastName: "",
-        number: "",
         email: "",
     });
     const [formErrors, setFormErrors] = useState({
         FirstName: "",
         LastName: "",
-        number: "",
         email: "",
     });
     const [showPopup, setShowPopup] = useState(false);
@@ -30,7 +28,6 @@ export default function Formsec() {
         const regex = {
             FirstName: /^[a-zA-Z\s]+$/,
             LastName: /^[a-zA-Z\s]+$/,
-            number: /^\d{10}$/,
             email:
                 /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
         };
@@ -58,13 +55,11 @@ export default function Formsec() {
         setFormData({
             FirstName: "",
             LastName: "",
-            number: "",
             email: "",
         });
         setFormErrors({
             FirstName: "",
             LastName: "",
-            number: "",
             email: "",
         });
     };
@@ -92,7 +87,7 @@ export default function Formsec() {
                                             name="FirstName"
                                             value={formData.FirstName}
                                             onChange={handleChange}
-                                         
+
                                             className=" border-[#13120033] px-3 w-full h-[48px] rounded-[8px] border text-[#131200] font-Exo text-base font-normal leading-[24px] opacity-[70%]"
                                         />
                                     </div>
