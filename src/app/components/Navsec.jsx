@@ -17,7 +17,7 @@ export default function Navsec() {
         <>
             <nav className="container max-w-[1140px] mx-auto px-3 ">
                 <div className='flex py-4 justify-between'>
-                    <a href=""><NavLogo /></a>
+                    <a href="#"><NavLogo /></a>
                     <ul
                         className={`gap-5 flex mobileView  items-center ${show ? "right-0" : "right-[-100%]"}`}
                     >
@@ -74,7 +74,9 @@ export default function Navsec() {
                                 FAQ
                             </a>
                         </li>
-                        <Button name='bg-gradient lg:ml-7' text='Contact Us' />
+                        <a href="#service">
+                            <Button name='bg-gradient lg:ml-7' text='Contact Us' />
+                        </a>
                     </ul>
                     <label
                         className="cursor-pointer lg:hidden w-[32px] sm:h-[26px] h-[22px] relative z-50 flex justify-between flex-col"
