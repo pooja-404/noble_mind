@@ -4,7 +4,7 @@ import Button from "./Button";
 export default function Mission() {
     return(
         <div className="relative z-1">
-            <div className="max-w-[1140px] container mx-auto px-3 md:my-16 my-10 lg:my-32" id="about">
+            <div className="max-w-[1140px] container 2xl:max-w-[1320px] mx-auto px-3 md:my-16 my-10 lg:my-32" id="about">
                 <div className="flex flex-wrap flex-row -mx-3">
                     <div className='lg:w-1/2 w-full px-3 lg:pr-10 max-lg:flex justify-center' data-aos="fade-right">
                         <Image

@@ -15,7 +15,7 @@ export default function Navsec() {
     }
     return (
         <>
-            <nav className="container max-w-[1140px] mx-auto px-3 ">
+            <nav className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3 ">
                 <div className='flex py-4 justify-between'>
                     <a href="#"><NavLogo /></a>
                     <ul

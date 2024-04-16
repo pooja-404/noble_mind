@@ -8,7 +8,7 @@ export default function Footersec() {
     const year = Dates.getFullYear()
     return (
         <div className="bg-bg_footer  bg-cover xl:bg-BgSize bg-no-repeat ">
-            <div className="max-w-[1140px] mx-auto px-3 lg:pb-16 pb-9 pt-32">
+            <div className="max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3 lg:pb-16 pb-9 pt-32">
                 <div className="flex flex-wrap flex-row -mx-3">
                     <div className="lg:w-8/12 w-full px-3"data-aos="fade-right">
                         <a href=""><FooterLogo/></a>

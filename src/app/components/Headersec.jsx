@@ -4,7 +4,7 @@ export default function Headersec() {
 
     return (
         <div className="flex-grow items-center  flex  " id="home" >
-            <div className=" container max-w-[1140px] mx-auto px-3">
+            <div className=" container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3">
                 <div className=" flex gap-2 max-lg:justify-center items-center" data-aos="fade-right" data-aos-duration="2000">
                     <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13.9187 6.87573L11.1603 14.2314L3.80469 16.9897L11.1603 19.7481L13.9187 27.1037L16.677 19.7481L24.0327 16.9897L16.677 14.2314L13.9187 6.87573Z" fill="#00EAEC" />

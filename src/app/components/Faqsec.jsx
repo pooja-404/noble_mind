@@ -25,7 +25,7 @@ export default function Faqsec() {
     return (
         <>
             <div className="relative z-10 lg:pt-24 pb-10" id="faq">
-                <div className="max-w-[774px] mx-auto px-3" data-aos="zoom-in">
+                <div className="max-w-[774px] mx-auto container  px-3" data-aos="zoom-in">
                     <h2 className="text-[#000000]  font-Outfit  lg:text-[48px]  sm:text-5xl text-3xl font-light md:leading-[57.6px] pt-3 text-center">Frequently <span className="font-Montserrat font-semibold ">Asked Questions</span></h2>
                     <p className="text-[#131200]  max-w-[491px]  font-Exo sm:text-base text-sm pt-4 font-normal md:leading-[24px] pb-9 !opacity-[70%] text-center mx-auto" data-aos="zoom-in">Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu volutpat mi leo. Nibh nisl consequat metus.</p>
                     <Accordion

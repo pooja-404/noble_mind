@@ -33,7 +33,7 @@ export default function Inovation() {
                     slidesToShow: 3,
                     slidesToScroll: 1,
                     centerMode: true,
-                    centerPadding: '-10px',
+                    centerPadding: 0,
                     VariableWidth: false,
                 }
             },
@@ -43,7 +43,7 @@ export default function Inovation() {
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     centerMode: false,
-                    centerPadding: '-10px',
+                    centerPadding: 0,
                     VariableWidth: false,
                 }
             },
@@ -94,7 +94,7 @@ export default function Inovation() {
 
     ]
     const card = cards.map((cards, i) => (<div key={i} className={`lg:w-1/3 md:w-2/4  w-full flex justify-center group duration-500 lg:py-16 md:pt-10 pt-7 pb-16 ${cards.botm}`}>
-        <div className=" xl:max-w-[364px] h-[220px]   mx-2 slider-box p-4 rounded-[12px] border-[1px]  border-solid border-[#A854E933]" data-aos={`${cards.animation}`} data-aos-duration="1000" data-aos-offset="500"
+        <div className=" xl:max-w-[3 64px] h-[220px]   mx-2 slider-box p-4 rounded-[12px] border-[1px]  border-solid border-[#A854E933]" data-aos={`${cards.animation}`} data-aos-duration="1000" data-aos-offset="500"
             data-aos-easing="ease-in-sine" style={{ backgroundImage: `url(${cards.bg})` }}>
             <div className='w-[50px] h-[50px] opacity-3 rounded-full  border-[#c993f33d] border-solid border-[9px]  flex justify-center items-center'>
                 <p className='font-Outfit font-bold text-[24px] leading-[50px] text-gradient'>{cards.text}</p>
@@ -104,8 +104,8 @@ export default function Inovation() {
         </div>
     </div>));
     return (
-        <div className="relative z-1 overflow-y-clip " id="choose">
-            <div className="max-w-[1140px] container  mx-auto px-3">
+        <div className="relative z-1 " id="choose">
+            <div className="max-w-[1140px] container 2xl:max-w-[1320px] mx-auto px-3">
                 <div className=" flex gap-2 items-center justify-center" data-aos="zoom-in">
                     <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13.9187 6.87573L11.1603 14.2314L3.80469 16.9897L11.1603 19.7481L13.9187 27.1037L16.677 19.7481L24.0327 16.9897L16.677 14.2314L13.9187 6.87573Z" fill="#00EAEC" />
@@ -129,8 +129,8 @@ export default function Inovation() {
                 <Slider  {...settings}>{card}</Slider>
                 <Image
                     src="/assets/images/confranceimg.webp"
-                    alt="logo" width={1140}
-                    height={527} className="object-cover  rounded-[24px] md:h-[527px] h-[300px]" data-aos="zoom-in" />
+                    alt="logo" width={1320}
+                    height={527} className="object-cover  rounded-[24px] md:h-[527px] h-[300px] mx-auto" data-aos="zoom-in" />
             </div>
             <Image
                 src="/assets/images/sliderellipse.webp"

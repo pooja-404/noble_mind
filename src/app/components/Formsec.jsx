@@ -65,7 +65,7 @@ export default function Formsec() {
     };
     return (
         <>
-            <div className="max-w-[1140px] container mx-auto px-3 md:py-16 py-10 lg:pt-32 " id="service">
+            <div className="max-w-[1140px] 2xl:max-w-[1320px] container mx-auto px-3 md:py-16 py-10 lg:pt-32 " id="service">
                 <div className="flex flex-wrap lg:flex-row flex-col-reverse -mx-3">
                     <div className="lg:w-1/2 w-full lg:pt-0 pt-7 lg:pr-12  px-3" data-aos="fade-right">
                         <h2 className="text-[#131200] lg:max-w-[560px] font-Outfit font-semibold  lg:text-[48px]  sm:text-5xl text-3xl md:leading-[57.6px] pt-3 max-lg:text-center">Contact <span className="font-Outfit font-light "> Us</span></h2>
