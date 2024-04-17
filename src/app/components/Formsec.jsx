@@ -5,14 +5,16 @@ import { useState, useRef } from 'react'
 export default function Formsec() {
     const checkRef = useRef(null);
     const [formData, setFormData] = useState({
-        FirstName: "",
+        Name: "",
         LastName: "",
         email: "",
+        Massage: "",
     });
     const [formErrors, setFormErrors] = useState({
-        FirstName: "",
+        Name: "",
         LastName: "",
         email: "",
+        Massage: "",
     });
     const [showPopup, setShowPopup] = useState(false);
     const handleChange = (e) => {
@@ -24,25 +26,26 @@ export default function Formsec() {
     };
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formData);
+
         const regex = {
-            FirstName: /^[a-zA-Z\s]+$/,
+            Name: /^[a-zA-Z\s]+$/,
             LastName: /^[a-zA-Z\s]+$/,
             email:
                 /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+            Massage: /^[a-zA-Z\s]+$/,
         };
         const errors = {};
-        if (!regex.FirstName.test(formData.FirstName)) {
-            errors.FirstName = "First Name is invalid.";
+        if (!regex.Name.test(formData.Name)) {
+            errors.Name = "First Name is invalid.";
         }
         if (!regex.LastName.test(formData.LastName)) {
             errors.LastName = "Last Name is invalid.";
         }
-        if (!regex.number.test(formData.number)) {
-            errors.number = "Number is invalid.";
-        }
         if (!regex.email.test(formData.email)) {
             errors.email = "Email is invalid.";
+        }
+        if (!regex.Massage.test(formData.Massage)) {
+            errors.Massage = "Massage is invalid.";
         }
 
         setFormErrors(errors);
@@ -53,14 +56,16 @@ export default function Formsec() {
     const handlePopupClose = () => {
         setShowPopup(false);
         setFormData({
-            FirstName: "",
+            Name: "",
             LastName: "",
             email: "",
+            Massage:"",
         });
         setFormErrors({
-            FirstName: "",
+            Name: "",
             LastName: "",
             email: "",
+            Massage:"",
         });
     };
     return (
@@ -83,16 +88,16 @@ export default function Formsec() {
                                     <div className="inputPlace">
                                         <input
                                             type="text"
-                                            id="FirstName"
-                                            name="FirstName"
-                                            value={formData.FirstName}
+                                            id="Name"
+                                            name="Name"
+                                            value={formData.Name}
                                             onChange={handleChange}
 
                                             className=" border-[#13120033] px-3 w-full h-[48px] rounded-[8px] border text-[#131200] font-Exo text-base font-normal leading-[24px] opacity-[70%]"
                                         />
                                     </div>
-                                    {formErrors.FirstName && (
-                                        <p className="error font-roboto">{formErrors.FirstName}</p>
+                                    {formErrors.Name && (
+                                        <p className="error font-roboto text-red-500">{formErrors.Name}</p>
                                     )}
                                 </div>
                                 <div className="flex flex-col  sm:w-[50%] w-full pt-2 pt-sm-0">
@@ -114,7 +119,7 @@ export default function Formsec() {
                                         />
                                     </div>
                                     {formErrors.LastName && (
-                                        <p className="error font-roboto">{formErrors.LastName}</p>
+                                        <p className="error font-roboto text-red-500">{formErrors.LastName}</p>
                                     )}
                                 </div>
                             </div>
@@ -137,7 +142,7 @@ export default function Formsec() {
                                     />
                                 </div>
                                 {formErrors.email && (
-                                    <p className="error font-roboto lh-20  fw-normal fs-xs off-gray">{formErrors.email}</p>
+                                    <p className="error font-roboto lh-20  fw-normal fs-xs off-gray text-red-500">{formErrors.email}</p>
                                 )}
                             </div>
                             <div className=" pt-2">
@@ -153,25 +158,21 @@ export default function Formsec() {
                                         className=" px-2 border-[#13120033] w-full resize-none mt-1 h-[135px] rounded-[8px] border text-[#131200] font-Exo text-base font-normal leading-[24px] opacity-[70%]"
                                     />
                                 </div>
+                                {formErrors.Massage && (
+                                    <p className="error font-roboto lh-20  fw-normal fs-xs off-gray text-red-500">{formErrors.Massage}</p>
+                                )}
 
                             </div>
                             <Button type="submit" name='bg-gradient mt-4' text='Submit' />
+                            {showPopup && (
+                                <div className="popup">
+                                    <p className="font-roboto fw-medium fs_xmd mb-0 pb-2 text_Main">
+                                        Form submitted successfully!
+                                    </p>
+                                    <Button onClick={handlePopupClose} name='bg-gradient' text='Submit' />
+                                </div>
+                            )}
                         </form>
-                        {showPopup && (
-                            <div className="popup">
-                                <p className="font-roboto fw-medium fs_xmd mb-0 pb-2 text_Main">
-                                    Form submitted successfully!
-                                </p>
-                                {/* <button
-                                    onClick={handlePopupClose}
-                                    className="Nav_btn paddingClose mt-5 border-0 font-roboto fw-medium"
-                                >
-                                    Close
-                                </button> */}
-
-                                <Button onClick={handlePopupClose} name='bg-gradient' text='Submit' />
-                            </div>
-                        )}
                     </div>
                     <div className="lg:w-1/2 w-full px-3 max-lg:flex justify-center" data-aos="fade-left">
                         <Image
