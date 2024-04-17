@@ -123,7 +123,7 @@ export default function Formsec() {
                                     )}
                                 </div>
                             </div>
-                            <div className="d-flex flex-column  w_100 pt-2 pt-sm-0">
+                            <div className="d-flex flex-column  w_100 pt-2 sm:pt-3 pt-sm-0">
                                 {" "}
                                 <label
                                     htmlFor="email"
@@ -145,7 +145,7 @@ export default function Formsec() {
                                     <p className="error font-roboto lh-20  fw-normal fs-xs off-gray text-red-500">{formErrors.email}</p>
                                 )}
                             </div>
-                            <div className=" pt-2">
+                            <div className=" pt-2 sm:pt-3">
                                 {" "}
                                 <label
                                     htmlFor="Name"
