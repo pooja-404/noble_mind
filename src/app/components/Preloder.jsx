@@ -4,7 +4,7 @@ export default function Preloder() {
 
         <div className="bg-[#040404] min-h-screen fixed h-full w-full flex   items-center z-30  mx-auto">
             <div
-                className="w-[10rem] h-[10rem] animate-bounce ing grid place-items-center absolute top-[40%] sm:right-[44%] right-[30%] xs:right-[30%] [transition:all_400ms_ease] hover:-translate-y-[1rem] mx-auto">
+                className="w-[10rem] h-[10rem] animate-bounce ing grid place-items-center   [transition:all_400ms_ease] hover:-translate-y-[1rem] mx-auto">
 
                 <div className="w-[7rem] h-[7rem] absolute bg-black  rounded-lg animate-[spinIn_1s_linear_infinite]"></div>
                 <div className="w-[8rem] h-[8rem]  absolute bg-black   shadow-xl rounded-full"></div>
